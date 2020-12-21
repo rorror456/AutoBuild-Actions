@@ -6,7 +6,7 @@
 # Modify: Hyy2001X
 #=======================================================
 
-name: AutoBuild-NEWIFI_D2-NIGHTLY
+name: AutoBuild-ROR-NEWIFI_D2
 
 on: 
 #  release:
@@ -24,7 +24,7 @@ on:
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
-  CONFIG_FILE: Configs/NEWIFI_D2-NIGHTLY.config
+  CONFIG_FILE: Configs/ROR-NEWIFI_D2.config
   DIY_SCRIPT: Scripts/diy-script.sh
   UPLOAD_RELEASE: true
   UPLOAD_FIRMWARE: true
